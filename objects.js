@@ -4,6 +4,9 @@ function updatePlaylist(playlistObj, artist, title){
   playlistObj[artist] = title;
 }
 
+function removeFromPlaylist(playlistObj, artist){
+  delete playistObj[artist]
+}
 //   describe('updatePlaylist(playlist, artistName, songTitle)', () => {
 //     before(() => {
 //       playlist['Slowdive'] = 'Alison'
