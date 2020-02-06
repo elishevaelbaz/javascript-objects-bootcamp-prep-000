@@ -1,7 +1,7 @@
 var playlist = {"Blake Shelton": "Austin"}
 
 function updatePlaylist(playlistObj, artist, title){
-  playlistObj.artist = title;
+  playlistObj[artist] = title;
 }
 
 //   describe('updatePlaylist(playlist, artistName, songTitle)', () => {
