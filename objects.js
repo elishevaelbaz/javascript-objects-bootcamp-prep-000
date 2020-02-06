@@ -5,7 +5,7 @@ function updatePlaylist(playlistObj, artist, title){
 }
 
 function removeFromPlaylist(playlistObj, artist){
-  delete playlistObj[artist]
+  delete playlistObj[artist]]
 }
 //   describe('updatePlaylist(playlist, artistName, songTitle)', () => {
 //     before(() => {
