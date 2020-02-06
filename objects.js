@@ -1,5 +1,6 @@
 var playlist = {"Blake Shelton": "Austin"}
 
+function updatePlaylist(playlist, artist, title){
 
 //   describe('updatePlaylist(playlist, artistName, songTitle)', () => {
 //     before(() => {
